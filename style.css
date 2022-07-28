@@ -1,15 +1,17 @@
-.carousel-item{
-    background: no-repeat;
-    background-size: cover;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.carousel-item::before{
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background: #000;
-    opacity: 0.6;
+
+.caption {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.img {
+  filter: brightness(60%);
 }
